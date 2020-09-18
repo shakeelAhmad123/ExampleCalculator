@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Media_activity"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:padding="5dp"
+    android:background="@color/lessblack">
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="2dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/gallery_btn"
+        android:background="@drawable/gallery2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:text="Gallery"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/gallery_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="2dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/camera_btn"
+        android:background="@drawable/camera1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Camera"
+                android:layout_below="@+id/camera_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_weight="1"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="15dp"
+          android:padding="2dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/video_btn"
+            android:background="@drawable/video"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+          <TextView
+              android:text="Video"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:textSize="20dp"
+              android:layout_centerInParent="true"
+              android:layout_below="@+id/video_btn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+
+
+      </RelativeLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="2dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/music_btn"
+            android:background="@drawable/music"
+            android:layout_width="110dp"
+            android:layout_height="90dp"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/music_btn"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blerb_background"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blerb_background"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/blerb_background"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/blerb_background"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/blerb_background"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/blerb_background"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/blerb_background"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/blerb_background"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
